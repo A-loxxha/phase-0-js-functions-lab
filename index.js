@@ -18,7 +18,7 @@ return cleanWord === reversedWord;
 
 function calculateDiscountedPrice(originalPrice, discountPercentage){
 const discountAmmount = (originalPrice * discountPercentage)/100;
-return discountAmmount
+return originalPrice - discountAmmount;
 }
 // This is required for the test to function properly  
 module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
