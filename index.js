@@ -3,7 +3,7 @@ function calculateTax(amount){
 }
 
 function convertToUpperCase(text){
- return text.toUppercase();
+ return text.toUpperCase();
 }
 
 function findMaximum(num1, num2){
