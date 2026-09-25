@@ -16,7 +16,7 @@ const reversedWord = cleanWord.split('').reverse().join('');
 return cleanWord === reversedWord;
 }
 
-function calculateDiscountedPrice(originalPrice, discounrPercentage){
+function calculateDiscountedPrice(originalPrice, discountPercentage){
 const discountAmmount = (originalPrice * discountPercentage)/100;
 return discountAmmount
 }
