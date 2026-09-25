@@ -3,7 +3,7 @@ function calculateTax(amount){
 }
 
 function convertToUpperCase(text){
- return text.toUppercase;
+ return text.toUppercase();
 }
 
 function findMaximum(num1, num2){
@@ -11,9 +11,8 @@ return num1 > num2 ? num1 : num2;
 }
 
 function isPalindrome(word){
-const cleanWord = word.toLowerCase();
-const reversedWord = cleanWord.split('').reverse().join('');
-return cleanWord === reversedWord;
+const reversedWord = word.split('').reverse().join('');
+return word === reversedWord;
 }
 
 function calculateDiscountedPrice(originalPrice, discountPercentage){
